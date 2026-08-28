@@ -1,0 +1,42 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "db",
+    "server",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://NxhtLj7TkXo16B2.root:dc3E7dPQ3ilOw8Z2uMN4@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/oCFGeYavyMWzCdHN8QKbvP?ssl={\"rejectUnauthorized\":true}",
+    "DRIZZLE_DATABASE_URL": "mysql://NxhtLj7TkXo16B2.root:dc3E7dPQ3ilOw8Z2uMN4@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/oCFGeYavyMWzCdHN8QKbvP?ssl={\"rejectUnauthorized\":true}",
+    "MANUS_WEBDEV_PROJECT_ID": "oCFGeYavyMWzCdHN8QKbvP"
+  },
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/oCFGeYavyMWzCdHN8QKbvP.git",
+    "expiration": "2026-08-29T15:19:21.496Z",
+    "token": "art_v2_x_4b034c99240c68b810148024db40bfbe694efa57?expires=1788016761",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "sabor-express",
+  "path": "/home/ubuntu/sabor-express",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "oXisYZhAMjopAJ7i9CuEmN",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "VAywPZPkmH5bzqJsLPLxfC",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Manuel",
+    "OWNER_OPEN_ID": "Y7ZemBUoEGnFBNyEBnVfRe",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "0dc82b2a-018d-4ef6-896f-f58d3bb1c87c",
+    "VITE_APP_ID": "oCFGeYavyMWzCdHN8QKbvP",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663921698417/yQrkYJoEKlnmVnus.png",
+    "VITE_APP_TITLE": "Sabor Express — Comida rápida",
+    "VITE_FRONTEND_FORGE_API_KEY": "jGcqnCxVdmCinQxcPgJ35q",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
